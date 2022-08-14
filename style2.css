@@ -1,0 +1,220 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+.nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+  }
+  
+  .kesednsoled:after,
+  .kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap {
+    color: orange;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid orange;
+    float: left;
+    border-radius: 30px;
+  }
+  .ico-contact {
+    line-height: 1.9;
+  }
+  .meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title {
+    font-size: 16px;
+    color: orange;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+    float: none;
+    margin:0 50px;
+    }
+    .ico-wrap {
+    margin: 0 50px ;
+    }
+  }
+  .aio-icon-description a{
+    text-decoration: none;
+    color: black;
+  }
+  header .kesednsoled{
+    max-width: 100%;
+  }
+  @media(max-width: 767px) {
+    .logo{
+      float: none;
+      display: none;
+    }
+    .s h2{
+      font-size: calc(1rem + 2vw);
+    }
+  }
+  .g{
+    display: flex;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thert .o{
+    text-align: center;
+  }
+.button {
+    border-radius: 60px;
+    background-color: orange;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin:20px 20px;
+  }
+  p{
+    text-align: center;
+  }
+  .logo{
+    max-width: 100%;
+    z-index: 10px;
+  }
+  #logo{
+    width: 110px;
+    height: 110px;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  main img{
+    max-width: 100%;
+    border: 2px solid orange; 
+    padding: 15px; 
+    background: #666; 
+    margin-bottom: 10px;
+    transition: 1s;
+    margin: 0 4%;
+  }
+  .meanous-andscoev1{
+    margin: 0 5% ;
+  }
+  main img:hover{
+    transform: scale(1.2);
+  }
+  .button:hover span {
+    padding-left: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+  .logo p{
+    text-align: center;
+  }
+  .nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+  }
+  
+  .kesednsoled1:after,
+  .kesednsoled1:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap1 {
+    color: orange;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid orange;
+    float: left;
+    border-radius: 30px;
+  }
+  .ico-contact {
+    line-height: 1.9;
+  }
+  .meanous-andscoev1 {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title1 {
+    font-size: 16px;
+    color: orange;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 767px) {
+    .meanous-andscoev1,
+    .ico-wrap1 {
+    float: none;
+    text-align: center;
+    }
+    .ico-wrap1 {
+    margin: 0 auto 15px auto;
+    }
+  }
+  .aio-icon-description1 a{
+    text-decoration: none;
+    color: black;
+  }
+  header .kesednsoled1{
+    max-width: 100%;
+  }
+  @media(max-widht:991px)
+  {
+    .g{
+      padding: 20px 40px;
+    }
+  }
+  main h2{
+    text-align: center;
+    color: orange;
+    font-size: calc(1rem + 2vw);
+    margin: 20px;
+  }
